@@ -22,14 +22,14 @@ Run the application:
 
 ```Bash
 python spell_grammar_corrector_v2.py
-Note: On the first launch, the script will automatically download the necessary NLTK datasets (punkt, brown, words, etc.).
+##Note: On the first launch, the script will automatically download the necessary NLTK datasets (punkt, brown, words, etc.).
 
-📂 Project Structure
+##📂 Project Structure
 spell_grammar_corrector_v2.py: The main Python script containing the NLP logic and GUI.
 
 big.txt: The reference dataset used for training the frequency model.
 
-🤝 Contributors
+##🤝 Contributors
 This project was developed as part of an NLP Lab Project by:
 
 Malaika Akhtar (@MalaikaAkhtar01)
@@ -38,5 +38,5 @@ Haleema Sadia
 
 Sadia Mazhar
 
-📜 Credits
+##📜 Credits
 The big.txt dataset is sourced from public domain literature provided by Project Gutenberg.
