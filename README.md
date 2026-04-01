@@ -1,42 +1,86 @@
-# Spell & Grammar Corrector (NLP) ✍️
+# ✍️ Spell & Grammar Corrector (NLP)
 
-A context-aware text analysis tool that identifies spelling errors and grammatical inconsistencies using Natural Language Processing (NLP). This project features a modern dark-themed GUI and leverages both statistical models and character-level algorithms.
+A context-aware text analysis tool that identifies spelling errors and grammatical inconsistencies using **Natural Language Processing (NLP)**.
+This project features a modern dark-themed GUI and leverages both statistical models and character-level algorithms.
+
+---
 
 ## 🌟 Key Features
-- **Contextual Correction**: Uses an N-gram frequency model trained on the `big.txt` corpus (Project Gutenberg).
-- **Intelligent Spelling**: Implements the **Levenshtein Distance** algorithm for character-level similarity.
-- **Grammar Insights**: Utilizes **NLTK Part-of-Speech (POS) tagging** to detect structural issues.
-- **Modern UI**: A sleek, user-friendly interface built with `tkinter` featuring a dark theme.
+
+* **Contextual Correction**
+  Uses an N-gram frequency model trained on the `big.txt` corpus (Project Gutenberg).
+
+* **Intelligent Spelling**
+  Implements the **Levenshtein Distance** algorithm for character-level similarity.
+
+* **Grammar Insights**
+  Utilizes **NLTK Part-of-Speech (POS) tagging** to detect structural issues.
+
+* **Modern UI**
+  A sleek, user-friendly interface built with `tkinter` featuring a dark theme.
+
+---
 
 ## 🛠️ Installation & Setup
 
-1. **Clone the repository:**
+### 1️⃣ Clone the Repository
+
 ```bash
-git clone [https://github.com/MalaikaAkhtar01/spell-grammar-corrector.git](https://github.com/MalaikaAkhtar01/spell-grammar-corrector.git)
+git clone https://github.com/MalaikaAkhtar01/spell-grammar-corrector.git
 cd spell-grammar-corrector
-Install required libraries:
+```
+
+### 2️⃣ Install Required Libraries
 
 ```bash
 pip install pyspellchecker nltk
-Run the application:
+```
+
+### 3️⃣ Run the Application
 
 ```bash
 python spell_grammar_corrector_v2.py
-Note: On the first launch, the script will automatically download the necessary NLTK datasets (punkt, brown, words, etc.).
+```
 
-# 📂 Project Structure
-spell_grammar_corrector_v2.py: The main Python script containing the NLP logic and GUI.
+> **Note:** On first launch, required NLTK datasets (`punkt`, `brown`, `words`, etc.) will be downloaded automatically.
 
-big.txt: The reference dataset used for training the frequency model.
+---
 
-# 🤝 Contributors
-This project was developed as part of an NLP Lab Project by:
+## 📂 Project Structure
 
-Malaika Akhtar (@MalaikaAkhtar01)
+```text
+spell_grammar_corrector_v2.py   # Main Python script (NLP logic + GUI)
+big.txt                         # Dataset for training frequency model
+```
 
-Haleema Sadia
+---
 
-Sadia Mazhar
+## 📸 Screenshots
 
-# 📜 Credits
-The big.txt dataset is sourced from public domain literature provided by Project Gutenberg.
+### 🖥️ Main Interface
+
+![Main GUI](screenshots/main_gui.png)
+
+### ✏️ Text Correction Example
+
+![Correction Example](screenshots/correction_example.png)
+
+### 🌙 Dark Theme UI
+
+![Dark Theme](screenshots/dark_theme.png)
+
+> 💡 Place your images inside a folder named `screenshots` in your repository.
+
+---
+
+## 🤝 Contributors
+
+* **Malaika Akhtar** (@MalaikaAkhtar01)
+* **Haleema Sadia**
+* **Sadia Mazhar**
+
+---
+
+## 📜 Credits
+
+The `big.txt` dataset is sourced from public domain literature provided by **Project Gutenberg**.
