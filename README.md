@@ -61,15 +61,7 @@ big.txt                         # Dataset for training frequency model
 
 ![Main GUI](screenshot/main_gui.png)
 
-### ✏️ Text Correction Example
 
-![Correction Example](screenshot/correction_example.png)
-
-### 🌙 Dark Theme UI
-
-![Dark Theme](screenshot/dark_theme.png)
-
-> 💡 Place your images inside a folder named `screenshots` in your repository.
 
 ---
 
